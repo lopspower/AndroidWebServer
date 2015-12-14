@@ -1,6 +1,6 @@
 WebServer
 =========
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-green.svg?style=flat)](https://android-arsenal.com/details/1/2847)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-lightgrey.svg?style=flat)](https://android-arsenal.com/details/1/2847)
 
 Android Web Server (with [NanoHTTPD](http://nanohttpd.com/))
 
