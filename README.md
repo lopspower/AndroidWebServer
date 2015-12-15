@@ -1,3 +1,5 @@
+<p align="center"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.mikhaellopez.androidwebserver" title="Download on Google Play Store"><img src="http://i68.tinypic.com/igg1o2.png"></a></p>
+
 AndroidWebServer
 =========
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-lightgrey.svg?style=flat)](https://android-arsenal.com/details/1/2847)
@@ -8,6 +10,9 @@ AndroidWebServer
 
 This is a sample project for creating an **Android Web Server** using the [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) library.
 
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mikhaellopez.androidwebserver">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 
 Usage
 -----
