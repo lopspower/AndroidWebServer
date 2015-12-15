@@ -53,7 +53,7 @@ Usage
 
 	`serve()` is a very important method beacause this is the response sent by your web server.
 	
-4. You can now instantiate and start your server in your activity.
+4. You can now instantiate and start your server in your activity. (Full implementation [**here**](/app/src/main/java/com/mikhaellopez/androidwebserver/MainActivity.java))
 	```java
 	AndroidWebServer androidWebServer = new AndroidWebServer(port);
 	androidWebServer.start();
