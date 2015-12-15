@@ -2,39 +2,60 @@ WebServer
 =========
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-lightgrey.svg?style=flat)](https://android-arsenal.com/details/1/2847)
 
-Android Web Server (with [NanoHTTPD](http://nanohttpd.com/))
+This is a sample project for creating an **Android Web Server** using the [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) library.
 
-Image Result
------
-
-![Capture Project](http://i40.tinypic.com/2i7wrb8.png)
 
 Usage
 -----
 
-```java
-int port = 8008;
-WebServer server = new WebServer(port);
-```
+<img src="http://i67.tinypic.com/2iaajgz.png" width="250" align="right" hspace="20" />
 
-Create
------
+1. To make an **Android Web Server** add [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) dependency in your build.gradle file: 
 
-```java
-package com.mikhaellopez.webserver;
+	```groovy
+	compile 'org.nanohttpd:nanohttpd:2.2.0'
+	```
 
-import java.io.File;
-import java.io.IOException;
-import android.os.Environment;
+2. After that, you must create an **Android Web Server** Class this way:
 
-public class WebServer extends NanoHTTPD {
-	public WebServer(int port) throws IOException {
-		super(port, new File(Environment.getExternalStorageDirectory().getAbsolutePath()));
+	```java
+	public class AndroidWebServer extends NanoHTTPD {
+	
+	    public AndroidWebServer(int port) {
+	        super(port);
+	    }
+	
+	    public AndroidWebServer(String hostname, int port) {
+	        super(hostname, port);
+	    }
+	    
+	    @Override
+	    public Response serve(IHTTPSession session) {
+	        String msg = "<html><body><h1>Hello server</h1>\n";
+	        Map<String, String> parms = session.getParms();
+	        if (parms.get("username") == null) {
+	            msg += "<form action='?' method='get'>\n  <p>Your name: <input type='text' name='username'></p>\n" + "</form>\n";
+	        } else {
+	            msg += "<p>Hello, " + parms.get("username") + "!</p>";
+	        }
+	        return newFixedLengthResponse( msg + "</body></html>\n" );
+	    }
 	}
-}
-```
+	```
 
-Download
+	`serve()` is a very important method beacause this is the response sent by your web server.
+	
+3. You can now instantiate and start your server in your activity.
+	```java
+	AndroidWebServer androidWebServer = new AndroidWebServer(port);
+	androidWebServer.start();
+	```
+	
+	```java
+	androidWebServer.stop();
+	```
+
+LICENCE
 -----
 
-* [**NanoHTTPD**](https://github.com/lopspower/WebServer/blob/master/WebServer/src/com/mikhaellopez/webserver/NanoHTTPD.java)
+**AndroidWebServer** by [Lopez Mikhael](http://mikhaellopez.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
