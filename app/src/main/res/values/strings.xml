@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidWebServer</string>
+    <string name="message">You can now access the Android Web Server from a browser connected to the same wifi network.</string>
+    <string name="dialog_exit_message">Android Web Server is currently running. If you exit the application we will stop it. Are sure you want to exit the application?</string>
+    <string name="warning">Warning</string>
+    <string name="wifi_message">You must connect to a WiFi network to use this service.</string>
+</resources>
