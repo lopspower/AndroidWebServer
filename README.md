@@ -67,7 +67,7 @@ Usage
 	androidWebServer.stop();
 	```
 
-LICENCE
+LICENSE
 -----
 
 **AndroidWebServer** by [Lopez Mikhael](http://mikhaellopez.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
