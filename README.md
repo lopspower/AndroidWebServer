@@ -3,9 +3,9 @@
 AndroidWebServer
 =========
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-lightgrey.svg?style=flat)](https://android-arsenal.com/details/1/2847)
-[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
+[![Platform](https://img.shields.io/badge/platform-android-green.svg)](https://developer.android.com/index.html)
 [![API](https://img.shields.io/badge/API-8%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=8)
-[![Twitter](https://img.shields.io/badge/Twitter-@LopezMikhael-blue.svg?style=flat)](http://twitter.com/lopezmikhael)
+[![Twitter](https://img.shields.io/badge/Twitter-@LopezMikhael-blue.svg?style=flat)](https://twitter.com/lopezmikhael)
 
 This is a sample project for creating an **Android Web Server** using the [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) library.
 
@@ -70,4 +70,4 @@ Usage
 LICENSE
 -----
 
-**AndroidWebServer** by [Lopez Mikhael](http://mikhaellopez.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+**AndroidWebServer** by [Lopez Mikhael](https://mikhaellopez.com/) is licensed under a [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
