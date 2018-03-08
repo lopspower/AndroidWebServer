@@ -1,0 +1,6 @@
+<resources>
+	<string name="message">Теперь Вы можете получить доступ к этому веб-серверу из браузера, подключенного к этой же Wi-Fi сети.</string>
+	<string name="dialog_exit_message">Android Web Server запущен. Если Вы выйдите из приложения, оно остановится. Вы уверены, что хотите выйти?</string>
+    <string name="warning">Предупреждение</string>
+	<string name="wifi_message">Вы должны быть подключены к сети Wi-Fi для того, чтобы использовать этот сервис</string>
+</resources>
