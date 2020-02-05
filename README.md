@@ -1,5 +1,3 @@
-<p align="center"><img src="http://i68.tinypic.com/igg1o2.png"></p>
-
 AndroidWebServer
 =========
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-WebServer-lightgrey.svg?style=flat)](https://android-arsenal.com/details/1/2847)
