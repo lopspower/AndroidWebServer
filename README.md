@@ -10,8 +10,6 @@ This is a sample project for creating an **Android Web Server** using the [NanoH
 Usage
 -----
 
-<img src="http://i67.tinypic.com/2iaajgz.png" width="250" align="right" hspace="20" />
-
 1. To make an **Android Web Server** add [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) dependency in your build.gradle file: 
 
 	```groovy
