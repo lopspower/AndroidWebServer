@@ -66,6 +66,34 @@
                 android:textSize="18sp"
                 android:visibility="invisible" />
 
+            <RadioGroup
+                android:id="@+id/rgScheme"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbHttp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:onClick="onCheckedHTTP"
+                    android:text="@string/radio_button_label_http"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbHttpSecured"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onCheckedHTTPSecured"
+                    android:text="@string/radio_button_label_https" />
+            </RadioGroup>
+
         </LinearLayout>
 
     </LinearLayout>
